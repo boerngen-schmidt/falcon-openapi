@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 
-from falconswagger.utils import build_validator, get_model_schema, get_dir_path
+from falconopenapi.utils import build_validator, get_model_schema, get_dir_path
 import json
 import os.path
 

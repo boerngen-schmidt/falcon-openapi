@@ -1,4 +1,4 @@
-from falconswagger import SwaggerAPI, ModelHttpMeta
+from falconopenapi import SwaggerAPI, ModelHttpMeta
 
 
 class HelloModelMeta(ModelHttpMeta):

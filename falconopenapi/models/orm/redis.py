@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 
-from falconswagger.models.orm.redis_base import ModelRedisBaseMeta, ModelRedisBase
+from falconopenapi.models.orm.redis_base import ModelRedisBaseMeta, ModelRedisBase
 from collections import OrderedDict
 from copy import deepcopy
 from types import MethodType

@@ -1,4 +1,4 @@
-from falconswagger.swagger_api import SwaggerAPI
+from falconopenapi.swagger_api import SwaggerAPI
 from unittest import mock
 from jsonschema import Draft4Validator
 from pytest_falcon.plugin import Client

@@ -21,8 +21,8 @@
 # SOFTWARE.
 
 
-from falconswagger.models.orm.redis import ModelRedisMeta, ModelRedisFactory
-from falconswagger.exceptions import ModelBaseError
+from falconopenapi.models.orm.redis import ModelRedisMeta, ModelRedisFactory
+from falconopenapi.exceptions import ModelBaseError
 from unittest import mock
 import pytest
 import msgpack

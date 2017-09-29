@@ -21,9 +21,9 @@
 # SOFTWARE.
 
 
-from falconswagger.models.orm.redis_base import ModelRedisBaseMeta, ModelRedisBase
-from falconswagger.router import ModelRouter
-from falconswagger.exceptions import ModelBaseError
+from falconopenapi.models.orm.redis_base import ModelRedisBaseMeta, ModelRedisBase
+from falconopenapi.router import ModelRouter
+from falconopenapi.exceptions import ModelBaseError
 from falcon.errors import HTTPNotFound, HTTPMethodNotAllowed
 from jsonschema import ValidationError
 from unittest import mock

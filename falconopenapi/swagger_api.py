@@ -22,12 +22,12 @@
 
 
 from falcon import API, HTTP_INTERNAL_SERVER_ERROR, HTTP_BAD_REQUEST, HTTPError, HTTPNotFound
-from falconswagger.middlewares import SessionMiddleware
-from falconswagger.router import ModelRouter, Route
-from falconswagger.exceptions import JSONError, ModelBaseError, UnauthorizedError, SwaggerAPIError
-from falconswagger.mixins import LoggerMixin
-from falconswagger.utils import get_module_path
-from falconswagger.constants import SWAGGER_TEMPLATE, SWAGGER_SCHEMA
+from falconopenapi.middlewares import SessionMiddleware
+from falconopenapi.router import ModelRouter, Route
+from falconopenapi.exceptions import JSONError, ModelBaseError, UnauthorizedError, SwaggerAPIError
+from falconopenapi.mixins import LoggerMixin
+from falconopenapi.utils import get_module_path
+from falconopenapi.constants import SWAGGER_TEMPLATE, SWAGGER_SCHEMA
 from sqlalchemy.exc import IntegrityError
 from jsonschema import Draft4Validator
 from jsonschema import ValidationError

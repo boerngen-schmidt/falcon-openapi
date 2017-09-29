@@ -21,11 +21,11 @@
 # SOFTWARE.
 
 
-from falconswagger.router import Route
-from falconswagger.exceptions import ModelBaseError, JSONError
-from falconswagger.models.logger import ModelLoggerMetaMixin
-from falconswagger.constants import SWAGGER_VALIDATOR
-from falconswagger.utils import get_dir_path, get_module_path, build_validator
+from falconopenapi.router import Route
+from falconopenapi.exceptions import ModelBaseError, JSONError
+from falconopenapi.models.logger import ModelLoggerMetaMixin
+from falconopenapi.constants import SWAGGER_VALIDATOR
+from falconopenapi.utils import get_dir_path, get_module_path, build_validator
 from falcon.errors import HTTPNotFound, HTTPMethodNotAllowed
 from falcon import HTTP_CREATED, HTTP_NO_CONTENT, HTTP_METHODS
 from falcon.responders import create_default_options

@@ -21,8 +21,8 @@
 # SOFTWARE.
 
 
-from falconswagger.models.orm.session import Session
-from falconswagger.models.orm.sqlalchemy_redis import ModelSQLAlchemyRedisMeta
+from falconopenapi.models.orm.session import Session
+from falconopenapi.models.orm.sqlalchemy_redis import ModelSQLAlchemyRedisMeta
 
 
 class SessionMiddleware(object):

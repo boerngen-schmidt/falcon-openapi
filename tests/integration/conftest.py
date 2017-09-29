@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 
-from falconswagger.models.orm.session import Session
+from falconopenapi.models.orm.session import Session
 from unittest import mock
 from sqlalchemy import create_engine
 

@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 
-from falconswagger.exceptions import UnauthorizedError
+from falconopenapi.exceptions import UnauthorizedError
 from falcon import HTTP_FORBIDDEN, HTTP_METHODS
 from types import MethodType
 

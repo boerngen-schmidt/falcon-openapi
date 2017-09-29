@@ -30,7 +30,7 @@ ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(ROOT_PATH, '..'))
 
 
-from falconswagger.models.orm.sqlalchemy_redis import ModelSQLAlchemyRedisFactory
+from falconopenapi.models.orm.sqlalchemy_redis import ModelSQLAlchemyRedisFactory
 
 
 @pytest.fixture

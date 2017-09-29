@@ -21,8 +21,8 @@
 # SOFTWARE.
 
 
-from falconswagger.models.orm.redis import ModelRedisFactory
-from falconswagger.swagger_api import SwaggerAPI
+from falconopenapi.models.orm.redis import ModelRedisFactory
+from falconopenapi.swagger_api import SwaggerAPI
 from unittest import mock
 from fakeredis import FakeStrictRedis
 import pytest

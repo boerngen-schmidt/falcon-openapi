@@ -68,7 +68,7 @@ if CYTHON:
 
         return module_names
 
-    package_names = ['falconswagger', 'falconswagger.models']
+    package_names = ['falconopenapi', 'falconopenapi.models']
     ext_modules = [
         Extension(
             package + '.' + module,

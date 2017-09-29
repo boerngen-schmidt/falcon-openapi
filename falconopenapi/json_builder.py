@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 
-from falconswagger.exceptions import ModelBaseError
+from falconopenapi.exceptions import ModelBaseError
 from jsonschema import ValidationError
 from copy import deepcopy
 import json

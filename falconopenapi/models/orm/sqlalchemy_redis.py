@@ -35,10 +35,10 @@ from importlib import import_module
 from re import match as re_match, sub as re_sub
 from glob import glob
 
-from falconswagger.exceptions import ModelBaseError
-from falconswagger.models.orm.redis_base import ModelRedisBaseMeta, ModelRedisBase
-from falconswagger.models.logger import ModelLoggerMetaMixin
-from falconswagger.models.http import ModelHttpMetaMixin
+from falconopenapi.exceptions import ModelBaseError
+from falconopenapi.models.orm.redis_base import ModelRedisBaseMeta, ModelRedisBase
+from falconopenapi.models.logger import ModelLoggerMetaMixin
+from falconopenapi.models.http import ModelHttpMetaMixin
 
 import json
 import msgpack

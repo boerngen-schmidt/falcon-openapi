@@ -21,8 +21,8 @@
 # SOFTWARE.
 
 
-from falconswagger.hooks import authorization_hook, Authorizer
-from falconswagger.swagger_api import SwaggerAPI
+from falconopenapi.hooks import authorization_hook, Authorizer
+from falconopenapi.swagger_api import SwaggerAPI
 from falcon import before as falcon_before
 from unittest import mock
 

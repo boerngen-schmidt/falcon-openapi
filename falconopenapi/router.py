@@ -21,10 +21,10 @@
 # SOFTWARE.
 
 
-from falconswagger.json_builder import JsonBuilder
-from falconswagger.exceptions import ModelBaseError, JSONError
-from falconswagger.hooks import authorization_hook
-from falconswagger.utils import build_validator
+from falconopenapi.json_builder import JsonBuilder
+from falconopenapi.exceptions import ModelBaseError, JSONError
+from falconopenapi.hooks import authorization_hook
+from falconopenapi.utils import build_validator
 from collections import defaultdict, deque
 from jsonschema import RefResolver, Draft4Validator
 from falcon import HTTP_METHODS, HTTPMethodNotAllowed

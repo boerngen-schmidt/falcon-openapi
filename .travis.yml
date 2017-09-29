@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.5"
+  - "3.6"
 services:
   - mysql
 script: py.test -c pytest-travis.ini
