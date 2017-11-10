@@ -25,10 +25,6 @@ def get_dir_path(filename):
     return os.path.dirname(os.path.abspath(filename))
 
 
-def get_model_schema(filename, schema_name='schema.json'):
-    return json.load(open(os.path.join(get_dir_path(filename), schema_name)))
-
-
 def get_module_path(cls):
     module_filename = sys.modules[cls.__module__].__file__
     return get_dir_path(module_filename)

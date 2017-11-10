@@ -73,5 +73,10 @@ class UnauthorizedError(FalconSwaggerError):
         headers = {'WWW-Authenticate': 'Basic realm="{}"'.format(realm)}
         FalconSwaggerError.__init__(self, message, status, headers)
 
+
 class SwaggerAPIError(Exception):
+    pass
+
+
+class OpenApiError(Exception):
     pass
